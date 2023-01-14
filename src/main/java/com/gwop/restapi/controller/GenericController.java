@@ -16,7 +16,7 @@ public class GenericController {
 
         JSONObject obj = new JSONObject();
 
-        obj.put("The sum of numbers is:", result);
+        obj.put("result", result);
 
         return obj.toString();
     }
